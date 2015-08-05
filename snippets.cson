@@ -1,0 +1,32 @@
+'.source.js':
+  'Render snippet':
+    'prefix': 'render'
+    'body': 'render() {\n\treturn (\n\t\t$1\n\t)\n}'
+
+  'ES6 propTypes':
+    'prefix': 'pt'
+    'body': 'static propTypes = {\n\t$1\n}'
+
+  'React propTypes object':
+    'prefix': 'pto'
+    'body': 'React.PropTypes.object$1'
+
+  'React propTypes string':
+    'prefix': 'pts'
+    'body': 'React.PropTypes.string$1'
+
+  'React propTypes number':
+    'prefix': 'ptn'
+    'body': 'React.PropTypes.number$1'
+
+  'React propTypes instance':
+    'prefix': 'pti'
+    'body': 'React.PropTypes.instanceOf($1)'
+
+  'ES6 import':
+    'prefix': 'i'
+    'body': "import {$1} from '$2'"
+
+  'React component':
+    'prefix': 'component'
+    'body': "import Component from '../components/component.react'\nimport React from 'react'\n\nexport default class $1 extends Component {\n\t$2\n}"
