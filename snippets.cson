@@ -24,7 +24,7 @@
     'body': 'React.PropTypes.instanceOf($1)'
 
   'ES6 default import':
-    'prefix': 'i'
+    'prefix': 'im'
     'body': "import $1 from '$2'"  
 
   'ES6 import':
