@@ -25,7 +25,11 @@
 
   'ES6 default import':
     'prefix': 'im'
-    'body': "import $1 from '$2'"  
+    'body': "import $1 from '$2'"
+    
+  'ES6 import local':
+    'prefix': 'il'
+    'body': "import $1 from './$2'"
 
   'ES6 import':
     'prefix': 'ii'
