@@ -5,7 +5,7 @@
 
   'ES6 propTypes':
     'prefix': 'pt'
-    'body': 'static propTypes = {\n\t$1\n}'
+    'body': '\nstatic propTypes = {\n\t$1\n}\n'
 
   'React propTypes object':
     'prefix': 'pto'
