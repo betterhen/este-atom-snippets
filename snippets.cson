@@ -38,3 +38,11 @@
   'React component':
     'prefix': 'component'
     'body': "import Component from '../components/component.react'\nimport React from 'react'\nimport immutable from 'immutable'\n\nexport default class $1 extends Component {\n\t$2\n}"
+
+  'Destructuruing propTypes':
+    'prefix': 'dp'
+    'body': 'const {$1} = this.props'
+
+  'Destructuruing propTypes with keeping otherProps':
+    'prefix': 'dpo'
+    'body': 'const {$1, ...otherProps} = this.props'
