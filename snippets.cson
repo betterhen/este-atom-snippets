@@ -41,8 +41,8 @@
 
   'Destructuruing propTypes':
     'prefix': 'dp'
-    'body': 'const {$1} = this.props'
+    'body': 'const {$1} = this.props\n'
 
   'Destructuruing propTypes with keeping otherProps':
     'prefix': 'dpo'
-    'body': 'const {$1, ...otherProps} = this.props'
+    'body': 'const {$1, ...otherProps} = this.props\n'
