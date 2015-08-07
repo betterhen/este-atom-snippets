@@ -37,4 +37,4 @@
 
   'React component':
     'prefix': 'component'
-    'body': "import Component from '../components/component.react'\nimport React from 'react'\n\nexport default class $1 extends Component {\n\t$2\n}"
+    'body': "import Component from '../components/component.react'\nimport React from 'react'\nimport immutable from 'immutable'\n\nexport default class $1 extends Component {\n\t$2\n}"
