@@ -46,3 +46,11 @@
   'Destructuruing propTypes with keeping otherProps':
     'prefix': 'dpo'
     'body': 'const {$1, ...otherProps} = this.props\n'
+    
+  'class name string':
+    'prefix': 'cn'
+    'body': "className='$1'"
+
+  'class name expression':
+    'prefix': 'cne'
+    'body': "className='{$1}'"
