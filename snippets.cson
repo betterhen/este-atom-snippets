@@ -23,6 +23,10 @@
     'prefix': 'pti'
     'body': 'React.PropTypes.instanceOf($1)'
 
+  'React propTypes instance required':
+    'prefix': 'ptir'
+    'body': 'React.PropTypes.instanceOf($1).isRequired'
+    
   'ES6 default import':
     'prefix': 'im'
     'body': "import $1 from '$2'"
