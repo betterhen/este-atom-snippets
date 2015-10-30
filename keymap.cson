@@ -1,0 +1,9 @@
+'atom-workspace':
+  'ctrl-alt-f': 'unset!'
+
+'.platform-win32':
+  'ctrl-alt-f': 'unset!'
+
+'.workspace .editor:not(.mini)':
+  'ctrl-alt-f': 'unset!'
+  'ctrl-alt-.': 'unset!'
