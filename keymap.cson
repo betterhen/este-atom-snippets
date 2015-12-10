@@ -1,12 +1,11 @@
-
 '.workspace .editor':
-  'ctrl-alt-.': 'unset!'
+  'ctrl-alt-.': 'native!'
   'ctrl-alt-q': 'unset!'
   'ctrl-alt-f': 'unset!'
   'ctrl-alt-b': 'unset!'
 
 '.platform-win32':
-  'ctrl-alt-.': 'unset!'
+  'ctrl-alt-.': 'native!'
   'ctrl-alt-q': 'unset!'
   'ctrl-alt-f': 'unset!'
   'ctrl-alt-b': 'unset!'
