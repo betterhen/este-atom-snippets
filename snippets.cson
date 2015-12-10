@@ -41,7 +41,7 @@
 
   'React component':
     'prefix': 'cmp'
-    'body': "import Component from '../components/component.react'\nimport React from 'react'\nimport immutable from 'immutable'\n\nexport default class $1 extends Component {\n\t$2\n}"
+    "import Component from 'react-pure-render/component'\nimport React, {PropTypes} from 'react'\nimport immutable from 'immutable'\n\nexport default class $1 extends Component {\n\t$2\n}"
 
   'Destructuruing propTypes':
     'prefix': 'dp'
