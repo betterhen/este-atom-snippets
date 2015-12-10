@@ -58,3 +58,7 @@
   'class name expression':
     'prefix': 'cne'
     'body': "className='{$1}'"
+    
+  'require browser style':
+    'prefix': 'stl'
+    'body': "if (process.env.IS_BROWSER)\n\trequire('./$1.styl')"
