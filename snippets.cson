@@ -62,3 +62,7 @@
   'require browser style':
     'prefix': 'stl'
     'body': "if (process.env.IS_BROWSER)\n\trequire('./$1.styl')"
+    
+  'export constant promise':
+    'prefix': 'ecp'
+    'body': "export const $1_ERROR = '$1_ERROR'\nexport const $1_START = '$1_START'\nexport const $1_SUCCESS = '$1_SUCCESS'"
