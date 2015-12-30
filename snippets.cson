@@ -34,6 +34,10 @@
   'ES6 import local':
     'prefix': 'il'
     'body': "import $1 from './$2'"
+    
+  'ES6 import local react component':
+    'prefix': 'ilr'
+    'body': "import $1 from './$1.react'"
 
   'ES6 import':
     'prefix': 'ii'
