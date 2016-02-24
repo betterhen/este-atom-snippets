@@ -3,9 +3,19 @@
   'ctrl-alt-q': 'unset!'
   'ctrl-alt-f': 'unset!'
   'ctrl-alt-b': 'unset!'
+  'f5': 'sort-lines:natural'
 
 '.platform-win32':
   'ctrl-alt-.': 'native!'
   'ctrl-alt-q': 'unset!'
   'ctrl-alt-f': 'unset!'
   'ctrl-alt-b': 'unset!'
+  'f5': 'sort-lines:natural'
+
+'.platform-mac':
+  'ctrl-alt-.': 'native!'
+  'ctrl-alt-q': 'unset!'
+  'ctrl-alt-f': 'unset!'
+  'ctrl-alt-b': 'unset!'
+  'cmd-alt-l': 'editor:auto-indent'
+  'f5': 'sort-lines:natural'

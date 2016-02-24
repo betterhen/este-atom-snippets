@@ -26,17 +26,17 @@
   'React propTypes instance required':
     'prefix': 'ptir'
     'body': 'React.PropTypes.instanceOf($1).isRequired'
-    
+
   'ES6 default import':
     'prefix': 'im'
-    'body': "import $1 from '$2'"
-    
+    'body': "import $1 from '$1'"
+
   'ES6 import local':
     'prefix': 'il'
     'body': "import $1 from './$2'"
-    
+
   'ES6 import local react component':
-    'prefix': 'ilr'
+    'prefix': 'ir'
     'body': "import $1 from './$1.react'"
 
   'ES6 import':
@@ -54,7 +54,7 @@
   'Destructuruing propTypes with keeping otherProps':
     'prefix': 'dpo'
     'body': 'const {$1, ...otherProps} = this.props\n'
-    
+
   'class name string':
     'prefix': 'cn'
     'body': "className='$1'"
@@ -62,11 +62,11 @@
   'class name expression':
     'prefix': 'cne'
     'body': "className='{$1}'"
-    
+
   'require browser style':
     'prefix': 'stl'
     'body': "if (process.env.IS_BROWSER)\n\trequire('./$1.styl')"
-    
+
   'export constant promise':
     'prefix': 'ecp'
     'body': "export const $1_ERROR = '$1_ERROR'\nexport const $1_START = '$1_START'\nexport const $1_SUCCESS = '$1_SUCCESS'"
